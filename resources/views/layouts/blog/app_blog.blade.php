@@ -31,10 +31,8 @@
   <!-- Navigation -->
   @include('layouts.blog.navigation')
   
-
   <!-- Page Header -->
   @include('layouts.blog.header')
-  
 
   <!-- Main Content -->
   <div class="container">

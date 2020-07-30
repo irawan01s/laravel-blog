@@ -1,4 +1,4 @@
-<header class="masthead" style="background-image: url('img/home-bg.jpg')">
+<header class="masthead" style="background-image: url('https://source.unsplash.com/1900x1267/?lenovo')">
   <div class="overlay"></div>
   <div class="container">
     <div class="row">

@@ -2,27 +2,28 @@
 
 @section('content')
 <div class="row d-flex justify-content-around">
-  {{-- <div class="col-4 mx-auto">
+  <div class="col-lg-6 mx-auto">
     <div class="card">
-      <img src="https://source.unsplash.com/random/200" class="card-img-top">
-      <div class="post-preview">
-        <h2 class="post-title">
+      <img src="https://source.unsplash.com/random/100" class="card-img-top">
+      <div class="card-body">
+      <a href="#" class="card-link">
+        <h3 class="post-title">
           Man must explore, and this is exploration at its greatest
-        </h2>
-        <h3 class="post-subtitle">
-          Problems look mighty small from 150 miles up
         </h3>
       </a>
-      <p class="post-meta">Posted by
-        <a href="#">Start Bootstrap</a>
-        on September 24, 2019</p>
+        <p class="card-text">
+          Problems look mighty small from 150 miles up
+        </p>
+        <small class="text-muted">Posted by
+          <a href="#">Start Bootstrap</a>
+          on September 24, 2019</small>
       </div>
     </div>
-  </div> --}}
+  </div>
 
   <div class="col-lg-6 col-md-4">
     <div class="post-preview shadow">
-      <img src="https://source.unsplash.com/random/300" class="card-img-top">
+      <img src="https://source.unsplash.com/random/200" class="card-img-top">
       <a href="post.html">
         <h2 class="post-title">
           Man must explore, and this is exploration at its greatest
@@ -54,7 +55,7 @@
   </div>
   <div class="col-lg-6 col-md-4">
     <div class="post-preview shadow">
-      <img src="https://source.unsplash.com/random/300" class="card-img-top">
+      <img src="https://source.unsplash.com/random/400" class="card-img-top">
       <a href="post.html">
         <h2 class="post-title">
           Science has not yet mastered prophecy
@@ -70,7 +71,7 @@
   </div>
   <div class="col-lg-6 col-md-4">
     <div class="post-preview shadow">
-      <img src="https://source.unsplash.com/random/300" class="card-img-top">
+      <img src="https://source.unsplash.com/random/500" class="card-img-top">
       <a href="post.html">
         <h2 class="post-title">
           Failure is not an option

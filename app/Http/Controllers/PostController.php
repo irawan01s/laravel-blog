@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Post;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 
 class PostController extends Controller
 {
@@ -24,7 +25,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        //
+        
     }
 
     /**
@@ -81,5 +82,13 @@ class PostController extends Controller
     public function destroy(Post $post)
     {
         //
+    }
+
+    public function getImg() {
+        $accessKey = env('UNSPLASH_ACCESS_KEY');
+        $uri = 'https://api.unsplash.com/photos/random/?client_id='.$accessKey;
+        $images = Http::get($uri)->json();
+
+        return $images['urls']['regular'];
     }
 }

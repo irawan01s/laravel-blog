@@ -20,5 +20,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::view('/blog','blog.index');
+Route::get('post/create', 'PostController@create');
 
 Route::get('/home', 'HomeController@index')->name('home');
