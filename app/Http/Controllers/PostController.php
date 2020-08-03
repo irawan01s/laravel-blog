@@ -15,7 +15,7 @@ class PostController extends Controller
      */
     public function index()
     {
-        //
+        return view('blog.index');
     }
 
     /**
@@ -86,9 +86,9 @@ class PostController extends Controller
 
     public function getImg() {
         $accessKey = env('UNSPLASH_ACCESS_KEY');
-        $uri = 'https://api.unsplash.com/photos/random/?client_id='.$accessKey;
+        $uri = 'https://api.unsplash.com/photos/random/?collections=962362&page=1&client_id='.$accessKey;
         $images = Http::get($uri)->json();
-
+        // dd($images);
         return $images['urls']['regular'];
     }
 }

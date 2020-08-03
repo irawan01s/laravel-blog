@@ -4,7 +4,7 @@
 <div class="row d-flex justify-content-around">
   <div class="col-lg-6 mx-auto">
     <div class="card">
-      <img src="https://source.unsplash.com/random/100" class="card-img-top">
+      <img src="https://source.unsplash.com/random/" class="card-img-top">
       <div class="card-body">
       <a href="#" class="card-link">
         <h3 class="post-title">
@@ -69,7 +69,7 @@
         on August 24, 2019</p>
     </div>
   </div>
-  <div class="col-lg-6 col-md-4">
+  {{-- <div class="col-lg-6 col-md-4">
     <div class="post-preview shadow">
       <img src="https://source.unsplash.com/random/500" class="card-img-top">
       <a href="post.html">
@@ -84,7 +84,7 @@
         <a href="#">Start Bootstrap</a>
         on July 8, 2019</p>
     </div>
-  </div>
+  </div> --}}
   <!-- Pager -->
   <div class="clearfix">
     <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>

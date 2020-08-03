@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::view('/blog','blog.index');
-Route::get('post/create', 'PostController@create');
+Route::resource('post', 'PostController');
+Route::get('/image', 'PostController@getImg');
 
 Route::get('/home', 'HomeController@index')->name('home');
